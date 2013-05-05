@@ -1,0 +1,18 @@
+doctype 5
+title チャットサンプル
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/socket.io/socket.io.js")
+    script(src="/javascripts/jquery-1.8.0.js")
+    script(src="/javascripts/client.js")
+  body
+    h1 チャットサンプル
+    div
+      なまえ：
+      input(type="text", id="name")      
+      てきすと：
+      input(type="text", id="input")
+      button(id='send') send
+      hr
+    #list
