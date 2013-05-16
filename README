@@ -10,4 +10,7 @@ npm install
 node app
 
 
+access from web client's browser to your server, like
+  http://server:3000/
+
 *** use after install, mongodb and node.js ***
