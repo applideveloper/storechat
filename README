@@ -1,2 +1,13 @@
 this code's license is GPL3.
 http://www.gnu.org/licenses/gpl.html
+
+
+<< usege >>
+
+git clone https://github.com/miffy/storechat.git
+cd storechat
+npm install
+node app
+
+
+*** use after install, mongodb and node.js ***
